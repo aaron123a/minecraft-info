@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "measured": false,
+  "sections": [
+    {
+      "id": "inicio",
+      "component": "Section01",
+      "measured": false,
+      "triggers": [],
+      "initialHidden": [],
+      "animatedSelectors": []
+    },
+    {
+      "id": "archivo",
+      "component": "Section02",
+      "measured": false,
+      "triggers": [],
+      "initialHidden": [],
+      "animatedSelectors": [
+        "#archivo .section-head",
+        "#archivo .mob-row"
+      ]
+    },
+    {
+      "id": "encounter",
+      "component": "Section03",
+      "measured": false,
+      "triggers": [],
+      "initialHidden": [],
+      "animatedSelectors": [
+        ".encounter .reveal",
+        ".encounter .encounter-art"
+      ]
+    }
+  ],
+  "pageTriggers": [],
+  "pageAnimatedSelectors": []
+}

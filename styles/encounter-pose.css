@@ -1,0 +1,16 @@
+.encounter-art .skeleton-large {
+  width: min(34vw, 360px);
+  height: 380px;
+  background: url("/mobs/skeleton-encounter.png") center / contain no-repeat;
+}
+
+.encounter-art .skeleton-large > .pixel-mob {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .encounter-art .skeleton-large {
+    width: 240px;
+    height: 270px;
+  }
+}

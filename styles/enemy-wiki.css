@@ -1,0 +1,5 @@
+.mob-row:focus-visible{outline:2px solid var(--mob);outline-offset:-3px}
+.mob-row .mob-summary{display:block;font-size:14px;line-height:1.6;color:#b4b7aa;margin-top:12px;transition:color .3s}
+.mob-row:hover .mob-summary{color:var(--ink)}
+.mob-row.skeleton:after{display:none}
+@media(hover:none){.mob-row:hover .mob-summary{color:#b4b7aa}}
